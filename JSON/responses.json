@@ -1,0 +1,29 @@
+{
+    "reactions": {
+        "laughing_exact": [
+            "lol"
+        ],
+        "laughing_partial": [
+            "lolol",
+            "haha",
+            "hehe"
+        ],
+        "rofl_partial": [
+            "rofl"
+        ]
+    },
+    "emojis": {
+        "laughing": "😂",
+        "rofl": "🤣"
+    },
+    "chat": [
+        {
+            "prompt": "Hi",
+            "response": "Hi! :wave:"
+        },
+        {
+            "prompt": "How are you?",
+            "response": "Good! :slight_smile: How are you?"
+        }
+    ]
+}

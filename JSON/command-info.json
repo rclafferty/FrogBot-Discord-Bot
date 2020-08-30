@@ -1,0 +1,34 @@
+{
+    "commands": [
+        {
+            "command": "ping",
+            "args": null,
+            "explanation": "Tests if I am online."
+        },
+        {
+            "command": "hi",
+            "args": null,
+            "explanation": "Say hi to me!"
+        },
+        {
+            "command": "introduce",
+            "args": null,
+            "explanation": "Let me introduce myself and explain what I do."
+        },
+        {
+            "command": "compare",
+            "args": "[store] [user 1] [user 2] [--force-update]",
+            "explanation": "I list all games user 1 and user 2 have in common (up to the 2,000 character limit). If you use `--force-update`, I'll save that list for both users."
+        },
+        {
+            "command": "register",
+            "args": "[store] [username] [id]",
+            "explanation": "If you cannot find your Steam ID (17 digit number), then contact an Admin for details."
+        },
+        {
+            "command": "myGames",
+            "args": "[discord name]",
+            "explanation": "I'll list all of your games (up to the 2,000 character limit)."
+        }
+    ]
+}

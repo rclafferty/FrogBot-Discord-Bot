@@ -102,3 +102,12 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Private user information
+*steam-users*.json
+
+# Authorization information
+auth.json
+
+# Private dev information
+*steam-info.json

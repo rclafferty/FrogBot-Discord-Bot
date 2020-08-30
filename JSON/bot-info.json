@@ -1,0 +1,73 @@
+{
+    "introduction": "Hi! :wave: I am FrogBot, a gaming-focused Discord bot.",
+
+    "help": "Here is a list of my commands:\n\n",
+
+    "categories": [
+        {
+            "category": "System 💻",
+            "commands": [
+                {
+                    "command": "ping",
+                    "args": null,
+                    "explanation": "Tests if I am online."
+                }
+            ]
+        },
+        {
+            "category": "Support 🛠️",
+            "commands": [
+                {
+                    "command": "introduce",
+                    "args": null,
+                    "explanation": "Let me introduce myself."
+                },
+                {
+                    "command": "help",
+                    "args": null,
+                    "explanation": "Let me explain my commands."
+                }
+            ]
+        },
+        {
+            "category": "Games 🎮",
+            "commands": [
+                {
+                    "command": "compare",
+                    "args": "[store] [user 1] [user 2] [--force-update]",
+                    "explanation": "I list games user 1 and user 2 have in common."
+                },
+                {
+                    "command": "register",
+                    "args": "[store] [username] [id]",
+                    "explanation": "Store your gaming info for quick comparison."
+                },
+                {
+                    "command": "myGames",
+                    "args": "[discord name]",
+                    "explanation": "I'll list your games (up to the 2,000 character limit)."
+                },
+                {
+                    "command": "allGames",
+                    "args": "[discord name]",
+                    "explanation": "I'll list all of your games (full list)."
+                }
+            ]
+        },
+        {
+            "category": "Fun 🎉",
+            "commands": [
+                {
+                    "command": "hi",
+                    "args": null,
+                    "explanation": "Say hi to me!"
+                },
+                {
+                    "command": "socialDistancing",
+                    "args": null,
+                    "explanation": "Social distancing guidelines for COVID-19."
+                }
+            ]
+        }
+    ]
+}
